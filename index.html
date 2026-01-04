@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI в Мистецтві: Генеративний Дизайн</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="black-fade-overlay"></div>
+
+    <header class="navbar">
+        <a href="#home" class="logo">AI<span>ART</span></a>
+        <nav>
+            <a href="#concept" class="nav-item">Суть</a>
+            <a href="#process" class="nav-item">Технологія</a>
+            <a href="#gallery" class="nav-item">Галерея</a>
+            <a href="#sources" class="nav-item">Джерела</a>
+            
+            <button id="login-button" class="nav-btn">
+                Вхід
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section hero-section active">
+            <div class="content-wrapper">
+                <h1 class="fade-in">Мистецтво <br> <span class="gradient-text">Штучного Інтелекту</span></h1>
+                <p class="subtitle fade-in-up">Коли алгоритми стають пензлем, а код — полотном.</p>
+                <a href="#process" class="cta-button fade-in-up">Дізнатись про генерацію</a>
+            </div>
+        </section>
+
+        <section id="concept" class="section">
+            <div class="content-wrapper">
+                <h2>Нова ера живопису</h2>
+                <p class="description-text">
+                    Генеративне мистецтво — це не заміна художника, а його еволюція. Використовуючи нейромережі, ми можемо візуалізувати сни, концепції та ідеї, які раніше неможливо було зобразити традиційними методами.
+                </p>
+                <div class="card-grid">
+                    <div class="card hover-lift">
+                        <h3>🤖 Співпраця</h3>
+                        <p>Людина задає напрямок (промпт), а AI виконує технічну частину, створюючи деталізовані образи.</p>
+                    </div>
+                    <div class="card hover-lift">
+                        <h3>🎨 Стилізація</h3>
+                        <p>Миттєве перетворення ескізу на картину в стилі Ван Гога, кіберпанку або фотореалізму.</p>
+                    </div>
+                    <div class="card hover-lift">
+                        <h3>🚀 Швидкість</h3>
+                        <p>Те, що займало тижні, тепер створюється за хвилини, дозволяючи експериментувати без обмежень.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="section alt-bg">
+            <div class="content-wrapper">
+                <h2>Анатомія Генерації: Як працює бот</h2>
+                <p class="description-text">
+                    AI використовує так звані **Дифузійні моделі**. Цей процес складається з кроків, на яких бот перетворює випадковий цифровий "шум" на чітке зображення, керуючись вашим текстовим описом.
+                </p>
+                
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <h4>Початковий Шум</h4>
+                        <p>На початку AI створює повністю випадкову картинку — набір кольорових пікселів, що нагадує телевізійний шум.</p>
+                    </div>
+                    <div class="step-arrow">➜</div>
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <h4>Умовна Оцінка</h4>
+                        <p>Нейромережа (модель U-Net) аналізує шум, порівнюючи його з вашим промптом, і намагається знайти в ньому контури об'єктів (наприклад, "кішка" або "космічний корабель").</p>
+                    </div>
+                    <div class="step-arrow">➜</div>
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <h4>Багатокроковий Денойзинг</h4>
+                        <p>На 50-100+ ітераціях AI поступово прибирає "зайвий" шум, щоразу роблячи зображення більш чітким, додаючи текстури та світло відповідно до промпту.</p>
+                    </div>
+                </div>
+
+                <div class="prompts-section">
+                    <h3>🔥 Бібліотека Успішних Промптів</h3>
+                    <p class="small-text">Ці ключові слова допомагають AI точно відтворити бажаний стиль та якість:</p>
+                    
+                    <div class="prompts-grid">
+                        <div class="prompt-box">
+                            <span class="prompt-category">Стилізація</span>
+                            <div class="tags">
+                                <span class="tag">Oil Painting</span>
+                                <span class="tag">Unreal Engine</span>
+                                <span class="tag">Studio Ghibli</span>
+                                <span class="tag">Pixel Art</span>
+                                <span class="tag">Concept Art</span>
+                            </div>
+                        </div>
+
+                        <div class="prompt-box">
+                            <span class="prompt-category">Технічні деталі</span>
+                            <div class="tags">
+                                <span class="tag">8k Resolution</span>
+                                <span class="tag">Highly Detailed</span>
+                                <span class="tag">Octane Render</span>
+                                <span class="tag">Photorealistic</span>
+                            </div>
+                        </div>
+
+                        <div class="prompt-box">
+                            <span class="prompt-category">Настрій та Світло</span>
+                            <div class="tags">
+                                <span class="tag">Cinematic Lighting</span>
+                                <span class="tag">Volumetric Light</span>
+                                <span class="tag">Neon Glow</span>
+                                <span class="tag">Dramatic Pose</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<section id="gallery" class="section">
+    <div class="content-wrapper">
+        <h2>Галерея Робіт</h2>
+        <p class="description-text">
+            Приклади того, що може створити AI, використовуючи різні промпти та стилі.
+        </p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="art1.jpg" alt="AI Art 1">
+                <div class="overlay">Абстракція</div>
+            </div>
+            <div class="gallery-item">
+                <img src="art2.jpg" alt="AI Art 2">
+                <div class="overlay">Кіберпанк</div>
+            </div>
+            <div class="gallery-item">
+                <img src="art3.jpg" alt="AI Art 3">
+                <div class="overlay">Кіберпанк</div>
+            </div>
+            <div class="gallery-item">
+                <img src="art4.jpg" alt="AI Art 4">
+                <div class="overlay">Кіберпанк</div>
+            </div>
+            <div class="gallery-item">
+                <img src="art5.jpg" alt="AI Art 5">
+                <div class="overlay">Кіберпанк</div>
+            </div>
+            <div class="gallery-item">
+                <img src="art6.jpg" alt="AI Art 6">
+                <div class="overlay">Футуризм</div>
+            </div>
+            <div class="gallery-item">
+                <img src="art7.jpg" alt="AI Art 7">
+                <div class="overlay">Сюрреалізм</div>
+            </div>
+            <div class="gallery-item">
+                <img src="art8.jpg" alt="AI Art 8">
+                <div class="overlay">Портрет</div>
+            </div>
+            <div class="gallery-item">
+                <img src="art9.jpg" alt="AI Art 9">
+                <div class="overlay">Пейзаж</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="section">
+    <div class="content-wrapper">
+                <h2>Відео огляд</h2>
+        <p class="description-text">
+            Приклади того, як AI генерує картинки.
+        </p>
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/yznX2fwKwcM" 
+                title="Easy Guide to How AI Generates Images" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</section>  
+
+        <section id="sources" class="section alt-bg">
+            <div class="content-wrapper">
+                <h2>Корисні Ресурси та Джерела</h2>
+                <p class="subtitle">Перевірена інформація для глибшого вивчення теми</p>
+                
+                <div class="links-container">
+                    <a href="https://uk.wikipedia.org/wiki/%D0%96%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81_%D0%BD%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%96_%D1%88%D1%82%D1%83%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D1%96%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%83" target="_blank" class="resource-card">
+                        <span class="icon">📚</span>
+                        <div class="info">
+                            <h3>Вікіпедія</h3>
+                            <p>Живопис на основі штучного інтелекту: загальна інформація</p>
+                        </div>
+                    </a>
+
+                    <a href="https://skvot.io/uk/blog/shtuchniy-intelekt-u-mistectvi" target="_blank" class="resource-card">
+                        <span class="icon">🧠</span>
+                        <div class="info">
+                            <h3>Блог SKVOT</h3>
+                            <p>Штучний інтелект у мистецтві: як це працює та приклади</p>
+                        </div>
+                    </a>
+
+                    <a href="https://artdom.com.ua/ua/blog/shtuchniy-ntelekt-dlya-khudozhnikv-top-20-ai-servsv-na-kozhniy-den/?srsltid=AfmBOoqi3sDBiA5yBaEnuDOkqa3nL-Wa1iH1OkcaUFMp1303-j0EpffJ" target="_blank" class="resource-card">
+                        <span class="icon">🏆</span>
+                        <div class="info">
+                            <h3>Artdom</h3>
+                            <p>Топ-20 AI сервісів для художників: огляд інструментів</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" data-modal="login-modal">&times;</span>
+            <h3>Вхід у систему</h3>
+            <p>Введіть Email для доступу.</p>
+            <input type="email" id="modal-email-input" placeholder="Ваш Email" class="modern-input">
+            <button id="simulate-github-login" class="cta-button full-width">Увійти</button>
+        </div>
+    </div>
+
+    <div id="analytics-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" data-modal="analytics-modal">&times;</span>
+            <h3>Звіти</h3>
+            <p>Тут відображатиметься статистика.</p>
+        </div>
+    </div>
+
+    <div id="cookie-notice" class="cookie-notice">
+        <p>Цей сайт використовує кукіси для покращення досвіду користувача. <a href="#" id="cookie-info-link">Дізнатись більше</a></p>
+        <button id="accept-cookies" class="cta-button">Прийняти</button>
+    </div>
+
+    <footer class="site-footer">
+        <div class="content-wrapper">
+            <p>&copy; <span id="current-year"></span> AI Art Project.  Виконав студент 1 КН-25Б: Марценюк Ростислав</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
